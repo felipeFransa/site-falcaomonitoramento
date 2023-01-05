@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Cabecalho = styled.header`
+export const HeaderContainer = styled.header`
   display: flex;
   padding:20px;
   background-color: #000;
@@ -25,12 +25,12 @@ export const MenuItem = styled.ul`
   padding: 0;
 `;
 export const MenuLI = styled.li`
-  color: #fff;
+  color:#fff;
   padding: 25px;
 `;
 export const Logo = styled.div`
   align-items: center;
   text-align: center;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #fff;
 `;

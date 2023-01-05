@@ -1,21 +1,20 @@
-import { Logo, Cabecalho, Container, MenuItem, MenuLI, Menu } from './style'
+import { Logo, Container, MenuItem, MenuLI, Menu, HeaderContainer } from './style'
 
 export const Header = () => {
   return (
-    <Cabecalho>
+    <HeaderContainer>
       <Container>
       <Logo>
         <h2>Falcao Monitoramento</h2>
       </Logo>
       <Menu>
         <MenuItem>
-          <MenuLI>Inicio</MenuLI>
+          <MenuLI>Home</MenuLI>
           <MenuLI>Services</MenuLI>
-          <MenuLI>Contatos</MenuLI>
           <MenuLI>About</MenuLI>
         </MenuItem>
       </Menu>
       </Container>
-    </Cabecalho>
+    </HeaderContainer>
   )
 }

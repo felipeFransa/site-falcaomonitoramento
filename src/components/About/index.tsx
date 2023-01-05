@@ -1,8 +1,11 @@
+import { AboutContainer, Contacts, Container } from './style'
+
 export const About = () => {
   return (
-    <div>
-      <div>Email: exemplo@gmail.com</div>
-      <div>Telefone: 31 0000 - 0000</div>
-    </div>
+    <AboutContainer>
+      <Container>
+        <Contacts>Exemplo@live.com</Contacts>
+      </Container>
+    </AboutContainer>
   )
 }
