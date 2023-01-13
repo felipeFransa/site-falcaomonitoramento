@@ -1,6 +1,5 @@
-import React from 'react'
-import { Container, Content, ImageMain, MainContent, TextMain } from './style'
-import logoIMG from '../../assets/img/logo-fm.png'
+import { Container, Content, ImageMain, MainContent, TextMain, Image } from './style'
+import logo from '../../assets/img/logo.png'
 
 export const Main = () => {
   return (
@@ -17,7 +16,7 @@ export const Main = () => {
           </Content>
         </TextMain>
         <ImageMain>
-          <img src={logoIMG} alt="logo" />
+          <Image src={logo} alt="logo" />
         </ImageMain>
       </Container>
     </MainContent>

@@ -5,7 +5,7 @@ export const Header = () => {
     <HeaderContainer>
       <Container>
       <Logo>
-        <h2>Falcao Monitoramento</h2>
+        <h2>Falcão Monitoramento</h2>
       </Logo>
       <Menu>
         <MenuItem>

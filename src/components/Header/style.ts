@@ -10,13 +10,27 @@ export const HeaderContainer = styled.header`
 export const Container = styled.div`
   width: 900px;
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
+`;
+export const Logo = styled.div`
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 export const Menu = styled.nav`
   display: flex;
   align-items: center;
   font-size: 20px;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
   `;
 export const MenuItem = styled.ul`
   display: flex;
@@ -27,10 +41,10 @@ export const MenuItem = styled.ul`
 export const MenuLI = styled.li`
   color:#fff;
   padding: 25px;
-`;
-export const Logo = styled.div`
-  align-items: center;
-  text-align: center;
-  font-size: 25px;
-  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 3px;
+  }
 `;

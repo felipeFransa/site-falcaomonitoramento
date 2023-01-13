@@ -10,6 +10,11 @@ export const Container = styled.div`
   width: 900px;
   display:flex;
   justify-content: space-around;
+
+  @media (max-width: 768px) {
+    width:100%;
+    flex-direction: column;
+  }
 `;
 export const CardsServises = styled.div`
   color: #fff;

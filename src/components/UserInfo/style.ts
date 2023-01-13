@@ -10,6 +10,11 @@ export const Container = styled.div`
   width: 900px;
   display:flex;
   justify-content: space-around;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 export const Users = styled.div`
   margin: 5px;
@@ -20,6 +25,11 @@ export const Users = styled.div`
   width: 300px;
   height: 400px;
   color: white;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
 `;
 export const UsersTitle = styled.div`
   width: 100%;
