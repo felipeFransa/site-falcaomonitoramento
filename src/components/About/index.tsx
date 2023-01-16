@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <AboutContainer>
       <Container>
-        <Contacts>Exemplo@live.com</Contacts>
+        <Contacts>Feito por Felipe Developers</Contacts>
       </Container>
     </AboutContainer>
   )

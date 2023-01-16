@@ -3,16 +3,20 @@ import { Main } from './components/Main';
 import { Services } from './components/Services';
 import { About } from './components/About';
 import { UserInfo } from './components/UserInfo';
+import { Container } from './Global.style';
+import { Footer } from './components/footer';
 
 const App = () => {
+
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <Services/>
-      <UserInfo/>
-      <About/>
-    </div>
+      <Container>
+        <Header/>
+        <Main/>
+        <Services/>
+        <UserInfo/>
+        <Footer />
+        <About/>
+      </Container>
   )
 }
 export default App;

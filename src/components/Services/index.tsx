@@ -1,36 +1,46 @@
-import React from 'react';
-import { CardDescription, CardTitle, CardsServises, Container, ServicesProvision } from './style'
+import { CardDescription, CardTitle, CardsServises, Container, ServicesProvision, TitleContainer, Title, ContainerCards, MessageService } from './style'
 
 export const Services = () => {
   return (
     <ServicesProvision>
       <Container>
-        <CardsServises>
-          <CardTitle>
-            <h2>Titulo 1</h2>
-          </CardTitle>
-          <CardDescription>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex suscipit blanditiis laboriosam hic quae consectetur error perspiciatis! Veniam voluptatibus harum qui veritatis rerum soluta, perferendis, impedit quam, animi architecto voluptate!</p>
-          </CardDescription>
-        </CardsServises>
-  
-        <CardsServises>
-          <CardTitle>
-            <h2>Titulo 2</h2>
-          </CardTitle>
-          <CardDescription>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex suscipit blanditiis laboriosam hic quae consectetur error perspiciatis! Veniam voluptatibus harum qui veritatis rerum soluta, perferendis, impedit quam, animi architecto voluptate!</p>
-          </CardDescription>
-        </CardsServises>
-
-        <CardsServises>
+        <TitleContainer>
+          <Title> SERVIÇOS</Title>
+        </TitleContainer>
+        <ContainerCards>
+          <CardsServises>
             <CardTitle>
-            <h2>Titulo 2</h2>
-          </CardTitle>
-          <CardDescription>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex suscipit blanditiis laboriosam hic quae consectetur error perspiciatis! Veniam voluptatibus harum qui veritatis rerum soluta, perferendis, impedit quam, animi architecto voluptate!</p>
-          </CardDescription>
-        </CardsServises>
+              <Title>ACOMPANHAMENTO</Title>
+            </CardTitle>
+            <CardDescription>
+              <MessageService>
+              Acompanhamento de saída e chegada residencial (trabalho, faculdade, curso, festa e etc…).
+              </MessageService>
+            </CardDescription>
+          </CardsServises>
+
+          <CardsServises>
+            <CardTitle>
+              <Title>APOIO</Title>
+            </CardTitle>
+            <CardDescription>
+              <MessageService>
+              Em casos de urgência, realizamos tarefas auxiliares como, retirada e entrega de medicamentos, alimentos e primeiro socorros.
+              </MessageService>
+            </CardDescription>
+          </CardsServises>
+
+          <CardsServises>
+            <CardTitle>
+              <Title>AVERIGUAÇÃO</Title>
+            </CardTitle>
+            <CardDescription>
+              <MessageService>
+              Averiguar barulhos estranhos, pessoas e movimentos suspeitos. Realizar o acionamento da polícia militar. Tudo com rapidez e eficácia.
+              </MessageService>
+            </CardDescription>
+          </CardsServises>
+        </ContainerCards>
       </Container>
     </ServicesProvision>
   )

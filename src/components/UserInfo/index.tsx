@@ -1,4 +1,5 @@
-import { Information, Container, Users, UsersTitle, UsersTitleH2, UsersTitleP} from "./style"
+import { Information, Container, Users, UsersTitle, UsersTitleH2, UsersInfos, UsersPhoto} from "./style";
+import FelipeIMG from '../../assets/img/felipe.jpg';
 
 export const UserInfo = () => {
   return (
@@ -6,22 +7,38 @@ export const UserInfo = () => {
       <Container>
         <Users>
           <UsersTitle>
-            <UsersTitleH2>Bairros 1</UsersTitleH2>
+            <UsersTitleH2>Jackson Ferreira</UsersTitleH2>
           </UsersTitle>
-          <UsersTitleP>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolore vero in distinctio quae ipsa aperiam natus earum, tempore incidunt, ea iste accusantium fugiat ab hic debitis tempora ipsam doloribus.</UsersTitleP>
+          <UsersPhoto src={FelipeIMG} />
+          <UsersInfos>
+            B. Santa Lúcia <br />
+            Região Centro Sul <br />
+            31- 9 9628- 4620
+        </UsersInfos>
         </Users>
         <Users>
           <UsersTitle>
-            <UsersTitleH2>Bairros 2</UsersTitleH2>
+            <UsersTitleH2>Jonas Matos</UsersTitleH2>
           </UsersTitle>
-          <UsersTitleP>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolore vero in distinctio quae ipsa aperiam natus earum, tempore incidunt, ea iste accusantium fugiat ab hic debitis tempora ipsam doloribus.</UsersTitleP>
-        </Users>
-        <Users>
-        <UsersTitle>
-            <UsersTitleH2>Bairros 3</UsersTitleH2>
+          <UsersPhoto src={FelipeIMG} />
+          <UsersInfos>
+            B. Carlos Prates <br />
+            Região Noroeste <br />
+            31- 9 9630 7252
+        </UsersInfos>
+        </Users><Users>
+          <UsersTitle>
+            <UsersTitleH2>Jamerson Henrique</UsersTitleH2>
           </UsersTitle>
-          <UsersTitleP>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolore vero in distinctio quae ipsa aperiam natus earum, tempore incidunt, ea iste accusantium fugiat ab hic debitis tempora ipsam doloribus.</UsersTitleP>
+          <UsersPhoto src={FelipeIMG} />
+          <UsersInfos>
+            B. Jardim América <br />
+            Região Oeste <br />
+            31 -9 9958-1818
+        </UsersInfos>
         </Users>
+
+        
       </Container>
     </Information>
   )

@@ -15,17 +15,17 @@ export const Container = styled.div`
 export const Logo = styled.div`
   align-items: center;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.8em;
   color: #fff;
 
   @media (max-width: 768px) {
-    font-size: 16px;
+    font-size: 1em;
   }
 `;
 export const Menu = styled.nav`
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.1em;
   justify-content: space-between;
 
   @media (max-width: 768px) {
@@ -40,7 +40,7 @@ export const MenuItem = styled.ul`
 `;
 export const MenuLI = styled.li`
   color:#fff;
-  padding: 25px;
+  padding: 1.2em;
 
   &:hover {
     background-color: #fff;

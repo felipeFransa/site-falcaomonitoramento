@@ -5,11 +5,13 @@ export const MainContent = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #000;
-`;
+  `;
 export const Container = styled.div`
   width: 900px;
   display:flex;
   justify-content: space-around;
+  margin-bottom: 20px;
+  
 
   @media (max-width: 768px){
     width: 100%;
@@ -20,22 +22,41 @@ export const Container = styled.div`
 export const TextMain = styled.div`
   width: 100%;
   color: #fff;
-  font-size: 15px;
+  font-size: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 0.9em;
   }
 `;
 export const Content = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+`;
+export const WelcomeContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const WelcomeTitle = styled.h2`
+  font-size: 2.2rem;
+`;
+export const WelcomeMessageContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const WelcomeMessage = styled.p`
+  font-size: 1rem;
+  margin: 0 10px;
 `;
 
 export const ImageMain = styled.div`

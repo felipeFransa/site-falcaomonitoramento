@@ -1,4 +1,4 @@
-import { Container, Content, ImageMain, MainContent, TextMain, Image } from './style'
+import { Container, Content, ImageMain, MainContent, TextMain, Image, WelcomeTitle, WelcomeContainer, WelcomeMessageContainer, WelcomeMessage } from './style'
 import logo from '../../assets/img/logo.png'
 
 export const Main = () => {
@@ -7,12 +7,16 @@ export const Main = () => {
       <Container>
         <TextMain>
           <Content>
-            <div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quod, inventore, sapiente pariatur cumque iste at ullam officia ipsum exercitationem delectus in eveniet aut, officiis vero distinctio debitis omnis voluptas?</p>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, a voluptatibus. Nobis molestias non dignissimos aperiam, quo numquam nihil natus porro qui tempore doloremque eaque et eius maiores! A, praesentium?</p>
-            </div>
+            <WelcomeContainer>
+              <WelcomeTitle>
+                Bem Vindo a Falcão!
+              </WelcomeTitle>
+            </WelcomeContainer>
+            <WelcomeMessageContainer>
+              <WelcomeMessage>
+              A Falcão Serviços é uma empresa de Ronda Motorizada no estado de Minas Gerais que tem como objetivo garantir o conforto da sua família ou empresa, mantendo seu patrimônio protegido.
+              </WelcomeMessage>
+            </WelcomeMessageContainer>
           </Content>
         </TextMain>
         <ImageMain>

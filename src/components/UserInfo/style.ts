@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Information = styled.div`
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +11,7 @@ export const Container = styled.div`
   width: 900px;
   display:flex;
   justify-content: space-around;
+  margin: 10px 0;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -33,21 +35,21 @@ export const Users = styled.div`
 `;
 export const UsersTitle = styled.div`
   width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
   display: flex;
   justify-content: center;
   text-align: center;
-  border: 1px solid white;
   border-radius: 3px;
 `;
 export const UsersTitleH2 = styled.h2`
   color: #fff;
-  font-size: 20px;
+  font-size: 1.1em;
 `;
-export const UsersTitleP = styled.p`
+export const UsersPhoto = styled.img`
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+`
+export const UsersInfos = styled.p`
   color: #fff;
-  font-size: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
+  font-size: 1em;
 `;
